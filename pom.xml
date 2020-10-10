@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>net.butfly</groupId>
+		<artifactId>parent</artifactId>
+		<version>3.1.0-SNAPSHOT</version>
+		<relativePath>butfly.pom</relativePath>
+	</parent>
+	<groupId>net.butfly.albacore</groupId>
+	<artifactId>albacore</artifactId>
+	<packaging>pom</packaging>
+	<modules>
+		<module>nodep</module>
+		<module>logging</module>
+		<module>config</module>
+		<module>core</module>
+		<module>meta</module>
+		<module>frame</module>
+		<module>utils</module>
+		<module>valid</module>
+		<module>scala</module>
+		<module>expr-fel</module>
+		<module>expr-fel-import</module><!-- local fel supporting -->
+		<!--<module>extra</module> -->
+		<!--<module>cache</module> -->
+		<module>test</module>
+		<module>async</module><!-- deprecated!! -->
+		<!-- <module>demo</module> -->
+	</modules>
+<!-- 	<scm>
+		<connection>https://bitbucket.org/butfly/albacore.git</connection>
+		<developerConnection>https://butfly@bitbucket.org/butfly/albacore.git</developerConnection>
+		<url>https://bitbucket.org/butfly/albacore</url>
+	</scm> -->
+	<properties>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+	</properties>
+</project>
