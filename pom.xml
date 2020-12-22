@@ -28,11 +28,6 @@
 		<module>async</module><!-- deprecated!! -->
 		<!-- <module>demo</module> -->
 	</modules>
-<!-- 	<scm>
-		<connection>https://bitbucket.org/butfly/albacore.git</connection>
-		<developerConnection>https://butfly@bitbucket.org/butfly/albacore.git</developerConnection>
-		<url>https://bitbucket.org/butfly/albacore</url>
-	</scm> -->
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
